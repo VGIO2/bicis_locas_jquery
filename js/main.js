@@ -73,19 +73,9 @@ function validateNombre(_evt){
 }
 */
 
-
-//Convierte la primera letra de una palabra en Mayuscula
-function firstToUpperCase(_texto)
-{
-var result = _texto[0].toUpperCase() + _texto.slice(1);
-var mayus = result.split(" ");
-return result;
-}
-
-
-function validateNombre(event){
+function validateNombre(){
     
-    //var nombre=document.getElementById("name").value;
+   //var nombre=document.getElementById("name").value;
     var nombre = $("#name").val();
     //var text="Ingrese su nombre";
     
